@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.col-1{
+    
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 0px 5px;
+    display: inline-block;
+    background-color: rgb(141, 141, 135);
+}
+.col-2{
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 0px 5px;
+    display: inline-block;
+    background-color:  rgb(141, 141, 135);
+}
+.col-3{
+    border: 2px solid black;
+    width: 350px;
+    margin: 0px 5px;
+    height: 200px;
+    display: inline-block;
+    background-color:  rgb(141, 141, 135);
+}
+.col-1 div{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(238, 229, 216);
+    margin: 0px;
+    float: right;
+    border: 1px outset black;
+    padding: 0px 10px;
+}
+.col-2 div{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    background-color:  rgb(219 170 104);
+    float: right;
+    border: 1px outset black;
+    padding: 0px 10px;
+}
+.col-3 div{font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(218, 196, 163);
+
+    margin: 0px;
+    float: right;
+    border: 1px solid black;
+    padding: 0px 10px;
+}
+@media (min-width:992px){
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .col-1{
+        width: 300px;
+        height: 200px;
+    }
+    .col-2{
+        width: 300px;
+        height: 200px;
+    }
+    .col-3{
+        width: 300px;
+        height: 200px;
+    }
+
+}
+@media (min-width:768px) and (max-width:991px){
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .col-1{
+        width: 300px;
+        height: 200px;
+    }
+    .col-2{
+        width: 300px;
+        height: 200px;
+    }
+    .col-3{
+        margin-top: 7px;
+        width: 615px;
+        height: 200px;
+    }
+
+}
+@media  (max-width:767px){
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .col-1{
+        margin-top: 10px;
+         width: 635px;
+        height: 200px;
+    }
+    .col-2{
+        margin-top: 10px;
+        width: 635px;
+        height: 200px;
+    }
+    .col-3{
+        margin-top: 10px;
+        width: 635px;
+        height: 200px;
+    }
+
+}
+
+
